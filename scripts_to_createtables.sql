@@ -1,5 +1,10 @@
 delimiter $$
 
+CREATE DATABASE `devcamp_sql_course_project` /*!40100 DEFAULT CHARACTER SET utf8 */$$
+
+
+delimiter $$
+
 CREATE TABLE `courses` (
   `course_id` int(11) NOT NULL AUTO_INCREMENT,
   `course_name` varchar(45) NOT NULL,
